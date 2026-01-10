@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inspirations - Invena</title>
+  <link rel="stylesheet" href="../invena.css" />
+  <style>
+    .hero-inspiration {
+      background-image: url('../images/inspiration-hero.jpg'); /* <-- Replace with your image */
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+    }
+
+    .hero-inspiration h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero-inspiration p {
+      font-size: 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+
+    .inspiration-intro {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 18px;
+      color: #333;
+      background-color: #fff;
+    }
+    @media screen and (max-width: 768px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-inspiration h1 {
+    font-size: 32px;
+  }
+
+  .hero-inspiration p {
+    font-size: 16px;
+  }
+}
+
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="logo">INVENA</div>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="inspirations.html" class="active">Inspirations</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="cooperation.html">Cooperation</a></li>
+        <li><a href="b2b.html">B2B</a></li>
+      </ul>
+    </nav>
+  </header>
+      <img src="../images/inspiration1.png" alt="Modern Bathroom 1" width="100%" height="550px" />
+
+  <section class="hero-inspiration">
+    <h1>Design Inspirations</h1>
+    <p>Explore how our products transform everyday bathrooms into elegant living spaces.</p>
+  </section>
+
+  <section class="inspiration-intro">
+    <p>At Invena, we believe that every space tells a story. Browse through our curated inspirations to see how you can elevate your bathroom with our minimalist designs, timeless materials, and elegant fixtures.</p>
+  </section>
+
+  <section class="gallery">
+    
+    <img src="../images/inspiration2.png" alt="Scandinavian Bathroom" />
+    <img src="../images/inspiration3.png" alt="Minimalist Sink Setup" />
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Invena. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a> • <a href="#">Terms of Use</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

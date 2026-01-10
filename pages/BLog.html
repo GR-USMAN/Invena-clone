@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog - Invena</title>
+  <link rel="stylesheet" href="../invena.css" />
+  <style>
+    .hero-blog {
+      background-image: url('../images/blog-hero.jpg'); /* Replace with your banner */
+      background-size: cover;
+      background-position: center;
+      padding: 100px 20px;
+      color: white;
+      text-align: center;
+    }
+
+    .hero-blog h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero-blog p {
+      font-size: 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .blog-intro {
+      text-align: center;
+      font-size: 18px;
+      background-color: #fff;
+      color: #333;
+    }
+
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 32px;
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+    }
+
+    .blog-card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .blog-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .blog-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .blog-content {
+      padding: 20px;
+    }
+
+    .blog-content h3 {
+      margin-top: 0;
+      font-size: 22px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .blog-content p {
+      color: #666;
+      font-size: 16px;
+    }
+
+    .blog-content a {
+      display: inline-block;
+      margin-top: 12px;
+      color: #ff7e00;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .blog-content a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="logo">INVENA</div>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="inspirations.html">Inspirations</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="cooperation.html">Cooperation</a></li>
+        <li><a href="b2b.html">B2B</a></li>
+      </ul>
+    </nav>
+  </header>
+   <H1>Check what is new in our blog</H1>
+  <section class="hero-blog">
+    <h1>Our Blog</h1>
+    <p>Ideas, advice, and updates on living beautifully with Invena.</p>
+  </section>
+
+  <section class="blog-intro">
+    <p>Stay inspired with our latest blog posts. From home design tips to product spotlights, we help you bring elegance and function to every corner of your bathroom.</p>
+  </section>
+
+  <section class="blog-grid">
+    <div class="blog-card">
+      <div class="blog-content">
+        <h3>5 Modern Bathroom Trends of 2025</h3>
+        <p>Discover the top design elements shaping elegant and functional bathrooms this year.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+
+    <div class="blog-card">
+      <div class="blog-content">
+        <h3>Choosing the Right Mixer Tap</h3>
+        <p>Style, finish, and function: What to consider when selecting a mixer for your space.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+
+    <div class="blog-card">
+      <div class="blog-content">
+        <h3>Creating a Spa-Like Bathroom at Home</h3>
+        <p>Simple tips to transform your bathroom into a relaxing retreat with minimal effort.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Invena. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a> • <a href="#">Terms of Use</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

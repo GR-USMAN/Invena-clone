@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>B2B Login - Invena</title>
+  <link rel="stylesheet" href="../invena.css" />
+  <style>
+    .b2b-hero {
+      background-image: url('../images/b2b-hero.jpg'); /* Replace with a professional background image */
+      background-size: cover;
+      background-position: center;
+      padding: 100px 20px;
+      text-align: center;
+      color: white;
+    }
+
+    .b2b-hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .b2b-hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .login-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 20px;
+      background-color: #f9f9f9;
+    }
+
+    .login-form {
+      background: #fff;
+      padding: 40px 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .login-form h2 {
+      margin-bottom: 20px;
+      font-size: 28px;
+      color: #333;
+      text-align: center;
+    }
+
+    .login-form label {
+      display: block;
+      margin-bottom: 8px;
+      color: #555;
+      font-weight: bold;
+    }
+
+    .login-form input[type="email"],
+    .login-form input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 2px solid #ffc579;
+      border-radius: 6px;
+      outline: none;
+      font-size: 16px;
+    }
+
+    .login-form button {
+      width: 100%;
+      padding: 12px;
+      background-color: #ff7e00;
+      border: none;
+      border-radius: 6px;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .login-form button:hover {
+      background-color: #e56e00;
+    }
+
+    .login-form .forgot {
+      display: block;
+      text-align: right;
+      margin-top: 10px;
+      font-size: 14px;
+      color: #888;
+      text-decoration: none;
+    }
+
+    .login-form .forgot:hover {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="logo">INVENA</div>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="inspirations.html">Inspirations</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="cooperation.html">Cooperation</a></li>
+        <li><a href="b2b.html" class="active">B2B</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="b2b-hero">
+    <h1>B2B Partner Login</h1>
+    <p>Access your dashboard, track orders, manage pricing and more.</p>
+  </section>
+
+  <section class="login-section">
+    <form class="login-form" action="#" method="POST">
+      <h2>Login to Your Account</h2>
+      <label for="email">Business Email</label>
+      <input type="email" id="email" name="email" placeholder="you@business.com" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+      <button type="submit">Login</button>
+      <a class="forgot" href="#">Forgot password?</a>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Invena. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a> • <a href="#">Terms of Use</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
